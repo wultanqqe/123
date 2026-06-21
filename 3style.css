@@ -1,0 +1,43 @@
+.box {
+    width: 150px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    position: absolute;
+    background: skyblue;
+    height: fit-content;
+    flex-direction: column;
+}
+
+.avatar {
+    top: 5vh;
+    left: 20vw;
+
+    width: 20vw;
+    height: 39vh;
+    overflow: hidden;
+}
+
+.avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.name {
+    top: 5vh;
+    right: 20vw;
+
+    width: 38vw;
+    height: 39vh;
+}
+
+.center {
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    width: 60vw;
+}
